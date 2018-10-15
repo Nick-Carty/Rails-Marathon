@@ -1,0 +1,1687 @@
+  [1m[35m (138.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "fantasy_houses_test"[0m
+  [1m[35m (285.7ms)[0m  [1m[35mCREATE DATABASE "fantasy_houses_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.9ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:41:57 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (13.2ms)
+  Rendered houses/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 301ms (Views: 284.4ms | ActiveRecord: 7.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:41:57 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.3ms)
+  Rendered houses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.7ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 15:41:57 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.8ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.8ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:41:57 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.2ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 15:41:57 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+Started GET "/houses/10" for 127.0.0.1 at 2018-10-11 15:41:57 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 1.7ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/14" for 127.0.0.1 at 2018-10-11 15:41:57 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (11.2ms)
+  Rendered houses/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 210ms (Views: 195.6ms | ActiveRecord: 6.4ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.8ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/15
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+Started GET "/houses/15" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.2ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.0ms)
+  Rendered houses/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.2ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+Started GET "/houses/18" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/22" for 127.0.0.1 at 2018-10-11 15:42:50 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mHouse Load (0.6ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (11.1ms)
+  Rendered houses/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 215ms (Views: 198.6ms | ActiveRecord: 7.6ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.8ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/23
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+Started GET "/houses/23" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 2.0ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.2ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.1ms)
+  Rendered houses/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.1ms)
+  Rendered houses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+Started GET "/houses/26" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/30" for 127.0.0.1 at 2018-10-11 15:44:15 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (11.5ms)
+  Rendered houses/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 213ms (Views: 198.3ms | ActiveRecord: 6.3ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.8ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/31
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+Started GET "/houses/31" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.3ms)
+  Rendered houses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.1ms)
+  Rendered houses/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.4ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.4ms)
+  Rendered houses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+Started GET "/houses/34" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/38" for 127.0.0.1 at 2018-10-11 15:44:44 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 16:00:27 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (12.1ms)
+  Rendered houses/new.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 217ms (Views: 203.0ms | ActiveRecord: 6.2ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 16:00:27 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.8ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/39
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+Started GET "/houses/39" for 127.0.0.1 at 2018-10-11 16:00:27 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"39"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 39], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 2.2ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 16:00:27 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.2ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 16:00:27 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.2ms)
+  Rendered houses/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 16:00:28 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 16:00:28 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.3ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 16:00:28 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+Started GET "/houses/42" for 127.0.0.1 at 2018-10-11 16:00:28 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/46" for 127.0.0.1 at 2018-10-11 16:00:28 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 46], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  Rendered houses/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (140.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "fantasy_houses_test"[0m
+  [1m[35m (287.7ms)[0m  [1m[35mCREATE DATABASE "fantasy_houses_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "houses" CASCADE[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE "houses" ("id" bigserial primary key, "name" character varying NOT NULL, "author" character varying NOT NULL, "source" character varying NOT NULL, "motto" character varying)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "members" CASCADE[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "members" ("id" bigserial primary key, "first_name" character varying NOT NULL, "last_name" character varying NOT NULL, "house_id" bigint NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_members_on_house_id" ON "members"  ("house_id")[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20181011203828)[0m
+  [1m[35m (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20181011184513);
+
+[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "test"], ["created_at", "2018-10-11 22:26:08.793562"], ["updated_at", "2018-10-11 22:26:08.793562"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 18:26:08 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (23.9ms)
+  Rendered houses/new.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 246ms (Views: 222.9ms | ActiveRecord: 9.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (1.0ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/1
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+Started GET "/houses/1" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 1]]
+  Rendered houses/show.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 30ms (Views: 7.8ms | ActiveRecord: 3.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.4ms)
+  Rendered houses/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.3ms)
+  Rendered houses/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.6ms)
+  Rendered houses/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+Started GET "/houses/4" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 4]]
+  Rendered houses/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (1.0ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 5], ["created_at", "2018-10-11 22:26:09.290202"], ["updated_at", "2018-10-11 22:26:09.290202"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/5" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 5]]
+  Rendered houses/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.5ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.5ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Brynden"], ["last_name", "Tully"], ["house_id", 6], ["created_at", "2018-10-11 22:26:09.359745"], ["updated_at", "2018-10-11 22:26:09.359745"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.3ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 7], ["created_at", "2018-10-11 22:26:09.363851"], ["updated_at", "2018-10-11 22:26:09.363851"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/6" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 6]]
+  Rendered houses/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/8/members/new" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"8"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/9" for 127.0.0.1 at 2018-10-11 18:26:09 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 9]]
+  Rendered houses/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:03:41 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (15.7ms)
+  Rendered houses/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 272ms (Views: 253.2ms | ActiveRecord: 6.6ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.8ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/10
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+Started GET "/houses/10" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.9ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 10]]
+  Rendered houses/show.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 29ms (Views: 8.0ms | ActiveRecord: 3.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.4ms)
+  Rendered houses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.3ms)
+  Rendered houses/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.6ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.2ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+Started GET "/houses/13" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 13]]
+  Rendered houses/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.7ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 14], ["created_at", "2018-10-11 23:03:42.287685"], ["updated_at", "2018-10-11 23:03:42.287685"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/14" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mHouse Load (0.6ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 14]]
+  Rendered houses/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Brynden"], ["last_name", "Tully"], ["house_id", 15], ["created_at", "2018-10-11 23:03:42.318611"], ["updated_at", "2018-10-11 23:03:42.318611"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 16], ["created_at", "2018-10-11 23:03:42.322110"], ["updated_at", "2018-10-11 23:03:42.322110"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/15" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 15]]
+  Rendered houses/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/17/members/new" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"17"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/18" for 127.0.0.1 at 2018-10-11 19:03:42 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 18]]
+  Rendered houses/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:05:03 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (12.6ms)
+  Rendered houses/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 220ms (Views: 201.5ms | ActiveRecord: 6.5ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.8ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/19
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+Started GET "/houses/19" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 19]]
+  Rendered houses/show.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 27ms (Views: 7.8ms | ActiveRecord: 3.5ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.2ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.2ms)
+  Rendered houses/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.3ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+Started GET "/houses/22" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 22]]
+  Rendered houses/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.6ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 23], ["created_at", "2018-10-11 23:05:04.185023"], ["updated_at", "2018-10-11 23:05:04.185023"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/23" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 23]]
+  Rendered houses/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.3ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Brynden"], ["last_name", "Tully"], ["house_id", 24], ["created_at", "2018-10-11 23:05:04.209857"], ["updated_at", "2018-10-11 23:05:04.209857"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.3ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 25], ["created_at", "2018-10-11 23:05:04.213070"], ["updated_at", "2018-10-11 23:05:04.213070"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/24" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 24]]
+  Rendered houses/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/26/members/new" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"26"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/27" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 27]]
+  Rendered houses/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+Started GET "/houses/27/members/new" for 127.0.0.1 at 2018-10-11 19:05:04 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"27"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:07:59 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (12.5ms)
+  Rendered houses/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 213ms (Views: 195.1ms | ActiveRecord: 6.2ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.7ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/28
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+Started GET "/houses/28" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 28]]
+  Rendered houses/show.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 26ms (Views: 7.5ms | ActiveRecord: 3.3ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.5ms)
+  Rendered houses/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.1ms)
+  Rendered houses/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.2ms)
+  Rendered houses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.4ms)
+Started GET "/houses/31" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 31]]
+  Rendered houses/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.6ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 32], ["created_at", "2018-10-11 23:08:00.298918"], ["updated_at", "2018-10-11 23:08:00.298918"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/32" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 32]]
+  Rendered houses/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.5ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Brynden"], ["last_name", "Tully"], ["house_id", 33], ["created_at", "2018-10-11 23:08:00.327181"], ["updated_at", "2018-10-11 23:08:00.327181"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.3ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 34], ["created_at", "2018-10-11 23:08:00.330352"], ["updated_at", "2018-10-11 23:08:00.330352"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/33" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 33]]
+  Rendered houses/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/35/members/new" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"35"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/36" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 36]]
+  Rendered houses/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.6ms)
+Started GET "/houses/36/members/new" for 127.0.0.1 at 2018-10-11 19:08:00 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"36"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (11.2ms)
+  Rendered houses/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 215ms (Views: 196.7ms | ActiveRecord: 6.4ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (1.1ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/1
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+Started GET "/houses/1" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.6ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 1]]
+  Rendered houses/show.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 27ms (Views: 7.7ms | ActiveRecord: 3.2ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.3ms)
+  Rendered houses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.0ms)
+  Rendered houses/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.9ms)
+  Rendered houses/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+Started GET "/houses/4" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 4]]
+  Rendered houses/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (1.0ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 5], ["created_at", "2018-10-11 23:08:47.946423"], ["updated_at", "2018-10-11 23:08:47.946423"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/5" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 5]]
+  Rendered houses/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Brynden"], ["last_name", "Tully"], ["house_id", 6], ["created_at", "2018-10-11 23:08:47.972765"], ["updated_at", "2018-10-11 23:08:47.972765"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.3ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 7], ["created_at", "2018-10-11 23:08:47.975935"], ["updated_at", "2018-10-11 23:08:47.975935"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/6" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 6]]
+  Rendered houses/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/8/members/new" for 127.0.0.1 at 2018-10-11 19:08:47 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"8"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/9" for 127.0.0.1 at 2018-10-11 19:08:48 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 9]]
+  Rendered houses/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.7ms)
+Started GET "/houses/9/members/new" for 127.0.0.1 at 2018-10-11 19:08:48 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"9"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (12.5ms)
+  Rendered houses/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 212ms (Views: 194.0ms | ActiveRecord: 6.4ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.8ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/10
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+Started GET "/houses/10" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 10]]
+  Rendered houses/show.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 27ms (Views: 7.6ms | ActiveRecord: 3.2ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.3ms)
+  Rendered houses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.0ms)
+  Rendered houses/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.6ms)
+  Rendered houses/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.5ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+Started GET "/houses/13" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 13]]
+  Rendered houses/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.6ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 14], ["created_at", "2018-10-11 23:11:58.442669"], ["updated_at", "2018-10-11 23:11:58.442669"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/14" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 14]]
+  Rendered houses/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.7ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Brynden"], ["last_name", "Tully"], ["house_id", 15], ["created_at", "2018-10-11 23:11:58.468759"], ["updated_at", "2018-10-11 23:11:58.468759"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 16], ["created_at", "2018-10-11 23:11:58.472524"], ["updated_at", "2018-10-11 23:11:58.472524"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/15" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.4ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 15]]
+  Rendered houses/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/17/members/new" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"17"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+Started POST "/houses/17/members" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "member"=>{"first_name"=>"Edmure", "last_name"=>"Tully"}, "commit"=>"Add Member", "house_id"=>"17"}
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Edmure"], ["last_name", "Tully"], ["house_id", 17], ["created_at", "2018-10-11 23:11:58.505585"], ["updated_at", "2018-10-11 23:11:58.505585"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/17
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+Started GET "/houses/17" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 17]]
+  Rendered houses/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/18" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 18]]
+  Rendered houses/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+Started GET "/houses/18/members/new" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"18"}
+  [1m[36mHouse Load (0.2ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+Started POST "/houses/18/members" for 127.0.0.1 at 2018-10-11 19:11:58 -0400
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "member"=>{"first_name"=>"Whatever", "last_name"=>""}, "commit"=>"Add Member", "house_id"=>"18"}
+  [1m[36mHouse Load (0.2ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (11.4ms)
+  Rendered houses/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 218ms (Views: 199.8ms | ActiveRecord: 6.3ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"Ravenclaw", "author"=>"JK Rowling", "source"=>"Harry Potter and the Sorcerer's Stone", "motto"=>"Wit beyond measure is man's greatest treasure"}, "commit"=>"Add House"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.8ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ravenclaw"], ["author", "JK Rowling"], ["source", "Harry Potter and the Sorcerer's Stone"], ["motto", "Wit beyond measure is man's greatest treasure"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/19
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+Started GET "/houses/19" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 19], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.6ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 19]]
+  Rendered houses/show.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 28ms (Views: 7.9ms | ActiveRecord: 3.5ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (1.3ms)
+  Rendered houses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started POST "/houses" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#create as HTML
+  Parameters: {"utf8"=>"✓", "house"=>{"name"=>"", "author"=>"", "source"=>"", "motto"=>""}, "commit"=>"Add House"}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.3ms)
+  Rendered houses/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Atreides"], ["author", "Frank Herbert"], ["source", "Dune"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+Started GET "/houses/new" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#new as HTML
+  Rendering houses/new.html.erb within layouts/application
+  Rendered houses/_form.html.erb (2.0ms)
+  Rendered houses/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Stark"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Winter is Coming"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#index as HTML
+  Rendering houses/index.html.erb within layouts/application
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  Rendered houses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+Started GET "/houses/22" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 22]]
+  Rendered houses/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.6ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 23], ["created_at", "2018-10-11 23:12:56.795750"], ["updated_at", "2018-10-11 23:12:56.795750"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/23" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 23]]
+  Rendered houses/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tully"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Family, Duty, Honor"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.3ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Brynden"], ["last_name", "Tully"], ["house_id", 24], ["created_at", "2018-10-11 23:12:56.809822"], ["updated_at", "2018-10-11 23:12:56.809822"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Robert"], ["last_name", "Baratheon"], ["house_id", 25], ["created_at", "2018-10-11 23:12:56.813567"], ["updated_at", "2018-10-11 23:12:56.813567"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/24" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 24]]
+  Rendered houses/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/26/members/new" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"26"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+Started POST "/houses/26/members" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "member"=>{"first_name"=>"Edmure", "last_name"=>"Tully"}, "commit"=>"Add Member", "house_id"=>"26"}
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mMember Create (0.4ms)[0m  [1m[32mINSERT INTO "members" ("first_name", "last_name", "house_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["first_name", "Edmure"], ["last_name", "Tully"], ["house_id", 26], ["created_at", "2018-10-11 23:12:56.846556"], ["updated_at", "2018-10-11 23:12:56.846556"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/houses/26
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+Started GET "/houses/26" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 26]]
+  Rendered houses/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mHouse Create (0.4ms)[0m  [1m[32mINSERT INTO "houses" ("name", "author", "source", "motto") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Baratheon"], ["author", "George R. R. Martin"], ["source", "A Game of Thrones"], ["motto", "Ours is the Fury"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Started GET "/houses/27" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by HousesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering houses/show.html.erb within layouts/application
+  [1m[36mMember Load (0.3ms)[0m  [1m[34mSELECT "members".* FROM "members" WHERE "members"."house_id" = $1[0m  [["house_id", 27]]
+  Rendered houses/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.6ms)
+Started GET "/houses/27/members/new" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by MembersController#new as HTML
+  Parameters: {"house_id"=>"27"}
+  [1m[36mHouse Load (0.3ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+Started POST "/houses/27/members" for 127.0.0.1 at 2018-10-11 19:12:56 -0400
+Processing by MembersController#create as HTML
+  Parameters: {"utf8"=>"✓", "member"=>{"first_name"=>"Whatever", "last_name"=>""}, "commit"=>"Add Member", "house_id"=>"27"}
+  [1m[36mHouse Load (0.2ms)[0m  [1m[34mSELECT  "houses".* FROM "houses" WHERE "houses"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering members/new.html.erb within layouts/application
+  Rendered members/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
